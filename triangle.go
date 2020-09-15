@@ -9,3 +9,4 @@ func (t *Triangle) Normal() Vector {
 	ac := t.C.Sub(t.A)
 	return ab.Cross(ac).Normalize()
 }
+;
